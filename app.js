@@ -8,10 +8,10 @@ btns.forEach(function (btn) {
     let val = e.target.id;
 
     if (val === "decrease") {
-      count--;
+      count -= 1;
     }
     if (val === "increase") {
-      count++;
+      count += 1;
     }
     if (val === "reset") {
       count = 0;
@@ -29,5 +29,5 @@ function getColor() {
   if (count < 0) {
     return "#d63031";
   }
-  return "#000";
+  return "#222";
 }
