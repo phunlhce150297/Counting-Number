@@ -1,0 +1,35 @@
+body {
+  background: #f1f1f1;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+button {
+  padding: 0.8rem;
+  border: 2px solid #222;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#increase:hover {
+  background: #16a085;
+  color: #fff;
+}
+
+#decrease:hover {
+  background: #d63031;
+  color: #fff;
+}
+
+#reset:hover {
+  background: #222;
+  color: #fff;
+}
